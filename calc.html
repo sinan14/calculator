@@ -12,34 +12,48 @@
     <link rel="stylesheet" href="./calc.css" />
   </head>
   <body>
-    <div class="container">
-      <div><h2 class="text-success">calculator</h2></div>
-      <div class="col-xl-3 col-lg-3"></div>
-      <div>
-        <input type="number" />
-        <input type="text" />
-        <input type="number" />
-        <input type="number" readonly />
+    <div class="container-flulid">
+      <h2 class="text-success text-center">calculator</h2>
+      <div class="row">
+        <div class="col">
+          <input type="number" />
+          <input type="text" />
+          <input type="number" />
+          <input type="number" readonly />
+        </div>
       </div>
-      <div class="col-xl-3 col-lg-3 col-md-3">
-        <button class="btn btn-info numbers">1</button>
-        <button class="btn btn-info numbers">2</button>
-        <button class="btn btn-info numbers">3</button>
-        <button class="btn btn-info numbers">4</button>
-        <button class="btn btn-info numbers">5</button>
-        <button class="btn btn-info numbers">6</button>
-        <button class="btn btn-info numbers">7</button>
-        <button class="btn btn-info numbers">8</button>
-        <button class="btn btn-info numbers">9</button>
-        <button class="btn btn-info numbers">0</button>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <button class="btn btn-info numbers">1</button>
+          <button class="btn btn-info numbers">2</button>
+          <button class="btn btn-info numbers">3</button>
+          <button class="btn btn-warning operators">*</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <button class="btn btn-info numbers">4</button>
+          <button class="btn btn-info numbers">5</button>
+          <button class="btn btn-info numbers">6</button>
+          <button class="btn btn-warning operators">/</button>
+        </div>
+      </div>
 
-        <button class="btn btn-warning operators">*</button>
-        <button class="btn btn-warning operators">/</button>
-        <button class="btn btn-warning operators">-</button>
-        <button class="btn btn-warning operators">+</button>
-        
-        <button class="btn btn-warning">=</button>
-        <button class="btn btn-warning">c</button>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <button class="btn btn-info numbers">7</button>
+          <button class="btn btn-info numbers">8</button>
+          <button class="btn btn-info numbers">9</button>
+          <button class="btn btn-warning operators">-</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-4">
+          <button class="btn btn-info numbers">0</button>
+          <button class="btn btn-warning">=</button>
+          <button class="btn btn-warning">c</button>
+          <button class="btn btn-warning operators">+</button>
+        </div>
       </div>
     </div>
     <script src="./calc.js"></script>
